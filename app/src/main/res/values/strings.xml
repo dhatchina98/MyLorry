@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">My Lorry</string>
+    <string name="button_1">Products</string>
+    <string name="button_2">Customers</string>
+    <string name="button_3">Order</string>
+    <string name="button_4">Payment</string>
+    <string name="button_5">Bills</string>
+    <string name="button_6">Vendors</string>
+    <string name="button_7">Sites</string>
+    <string name="name">Name</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="add">Add</string>
+    <string name="date">Date</string>
+    <string name="from">Vendor</string>
+    <string name="Product">Product</string>
+    <string name="CustomerName">Customer</string>
+    <string name="Site">Site</string>
+    <string name="Vehicle">Vehicle</string>
+    <string name="Quantity">Quantity</string>
+    <string name="Amount">Amount</string>
+    <string name="SiteName">Site Name</string>
+    <string name="Unit">Unit</string>
+    <string name="VehicleNo">Vehicle No</string>
+    <string name="Delete">Delete</string>
+    <string name="Update">Update</string>
+    <string name="AMOUNT">AMOUNT</string>
+    <string name="FROM">FROM</string>
+    <string name="TO">TO</string>
+    <string name="bill_from">From : </string>
+    <string name="bill_to">To : </string>
+    <string name="bill_view">View</string>
+    /////////////////navigation_bar////////////////
+    <string name="home">Home</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+    <string name="send_to_friends">Share to Friends</string>
+    <string name="contact_us">Contact us</string>
+    <string name="version">Version 1.0</string>
+    ////////////////empty/////////////////////////
+    <string name="empty_vehicle">No Vehicle</string>
+    <string name="empty_product">No Product</string>
+    <string name="empty_site">No Site</string>
+    <string name="empty_vendor">No Vendor</string>
+    <string name="empty_customer">No Customer</string>
+    <string name="empty_payment">No Payment</string>
+    <string name="empty_order">No Order</string>
+    //////////////////////////////////////////////
+    <string-array name="bill_array">
+        <item>Customer_Bill</item>
+        <item>Vendor_Bill</item>
+        <item>Order_Bill</item>
+    </string-array>
+    <string-array name="cash_array">
+        <item>Cash</item>
+        <item>Credit</item>
+    </string-array>
+    <string name="concat_date">%s</string>
+    <string name="title_activity_first">First_Activity</string>
+    <string name="navigation_drawer_open">Open navigation </string>
+    <string name="navigation_drawer_close">Close navigation </string>
+</resources>

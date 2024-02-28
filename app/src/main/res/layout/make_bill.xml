@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background_foreground"
+    tools:context=".make_bill">
+
+    <EditText
+        android:id="@+id/from_date"
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Start Date"
+        android:paddingLeft="10dp"
+        android:inputType="date"
+        android:background="@drawable/underline"
+        android:textColorHint="@color/BackGroundGrey"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="95dp" />
+    <ImageButton
+        android:id="@+id/from_dateBtn"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="208dp"
+        android:background="@drawable/black_outline_box_grey"
+        app:srcCompat="@drawable/baseline_calendar_month_24" />
+
+    <ImageButton
+        android:id="@+id/to_dateBtn"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/black_outline_box_grey"
+        app:srcCompat="@drawable/baseline_calendar_month_24" />
+
+    <EditText
+        android:id="@+id/to_date"
+        android:layout_width="116dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="193dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="End Date"
+        android:paddingLeft="10dp"
+        android:inputType="date"
+        android:background="@drawable/underline"
+        android:textColorHint="@color/BackGroundGrey"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/from_b"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="170dp"
+        android:hint="Vendor"
+        android:paddingLeft="10dp"
+        android:inputType="text"
+        android:textColorHint="@color/BackGroundGrey"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/fromBtn"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="171dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/black_outline_box_grey"
+        app:srcCompat="@drawable/baseline_keyboard_double_arrow_right_24" />
+
+    <AutoCompleteTextView
+        android:id="@+id/product_b"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="230dp"
+        android:hint="Product"
+        android:paddingLeft="10dp"
+        android:inputType="text"
+        android:textColorHint="@color/BackGroundGrey"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/productBtn"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/black_outline_box_grey"
+        app:srcCompat="@drawable/baseline_production_quantity_limits_24" />
+
+    <AutoCompleteTextView
+        android:id="@+id/customer_b"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="110dp"
+        android:hint="Customer"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/BackGroundGrey"
+        android:inputType="text"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/customerBtn"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/black_outline_box_grey"
+        app:srcCompat="@drawable/baseline_person_24" />
+
+    <AutoCompleteTextView
+        android:id="@+id/site_b"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Site"
+        android:paddingLeft="10dp"
+        android:inputType="text"
+        android:textColorHint="@color/BackGroundGrey"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/siteBtn"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/black_outline_box_grey"
+        app:srcCompat="@drawable/baseline_keyboard_double_arrow_left_24" />
+
+    <AutoCompleteTextView
+        android:id="@+id/vehicle_b"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="10dp"
+        android:hint="Vehicle"
+        android:paddingLeft="10dp"
+        android:inputType="text"
+        android:textColorHint="@color/BackGroundGrey"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/vehicleBtn"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/black_outline_box_grey"
+        app:srcCompat="@drawable/baseline_time_to_leave_24" />
+
+    <Button
+        android:id="@+id/create_button"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/curved_purple_button"
+        android:text="Create"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="560dp"
+        android:textColor="@color/black"
+        android:text="Note: In Customer Bill You can apply maximum filters which are you want." />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="610dp"
+        android:textColor="@color/black"
+        android:text="In Vendor Bill Only vendor Name is required.other filters Automatically will disable " />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="660dp"
+        android:textColor="@color/black"
+        android:text="In Order Bill No filters required .It will Give bill How You entered orders b/w the dates." />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/underline"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="410dp" />
+</RelativeLayout>

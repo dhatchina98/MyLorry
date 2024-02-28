@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/payment_imageView"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="9dp"
+        app:srcCompat="@mipmap/payment_list_view_foreground" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="70dp"
+        android:padding="3dp"
+        android:text="id:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/payment_id"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="70dp"
+        android:padding="3dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/payment_customer_name"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="1dp"
+        android:maxLines="1"
+        android:padding="3dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="45dp"
+        app:srcCompat="@drawable/date_payment_icon_foreground" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="73dp"
+        app:srcCompat="@drawable/baseline_currency_rupee_24" />
+
+    <TextView
+        android:id="@+id/payment_date"
+        android:layout_width="150dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="37dp"
+        android:maxLength="10"
+        android:padding="3dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/payment"
+        android:layout_width="150dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="65dp"
+        android:maxLength="8"
+        android:padding="3dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/payment_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="323dp"
+        android:layout_marginTop="12dp"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/payment_edit"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="53dp"
+        android:background="@color/white"
+        app:srcCompat="@mipmap/edit_image" />
+</RelativeLayout>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:background="@drawable/box"-->
+    <!--android:layout_height="90dp"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<TextView-->
+    <!--    android:id="@+id/payment_id"-->
+    <!--    android:layout_width="30dp"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:layout_marginStart="5dp"-->
+    <!--    android:layout_marginTop="8dp"-->
+    <!--    android:layout_marginEnd="6dp"-->
+    <!--    android:textSize="20sp"-->
+    <!--    android:textColor="@color/white"-->
+    <!--    android:padding="3dp"-->
+    <!--    android:visibility="visible" />-->
+
+    <!--<TextView-->
+    <!--    android:id="@+id/customer_name"-->
+    <!--    android:layout_width="250dp"-->
+    <!--    android:layout_height="35dp"-->
+    <!--    android:layout_alignParentTop="true"-->
+    <!--    android:layout_marginStart="14dp"-->
+    <!--    android:layout_marginTop="5dp"-->
+    <!--    android:layout_toEndOf="@id/payment_id"-->
+    <!--    android:maxLines="1"-->
+    <!--    android:padding="3dp"-->
+    <!--    android:textColor="@color/white"-->
+    <!--    android:textSize="23sp"-->
+    <!--    android:textStyle="bold" />-->
+
+    <!--<TextView-->
+    <!--    android:id="@+id/payment"-->
+    <!--    android:layout_width="150dp"-->
+    <!--    android:layout_height="32dp"-->
+    <!--    android:layout_below="@id/customer_name"-->
+    <!--    android:layout_alignParentTop="true"-->
+    <!--    android:layout_centerVertical="true"-->
+    <!--    android:layout_marginStart="180dp"-->
+    <!--    android:layout_marginTop="44dp"-->
+    <!--    android:layout_toEndOf="@id/payment_id"-->
+    <!--    android:ellipsize="end"-->
+    <!--    android:maxLines="2"-->
+    <!--    android:padding="3dp"-->
+    <!--    android:textColor="@color/white"-->
+    <!--    android:textSize="20sp"-->
+    <!--    android:textStyle="bold"-->
+    <!--    android:visibility="visible" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/date"-->
+    <!--        android:layout_width="150dp"-->
+    <!--        android:layout_height="32dp"-->
+    <!--        android:layout_below="@id/customer_name"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_centerVertical="true"-->
+    <!--        android:layout_marginStart="14dp"-->
+    <!--        android:layout_marginTop="44dp"-->
+    <!--        android:layout_toEndOf="@id/payment_id"-->
+    <!--        android:ellipsize="end"-->
+    <!--        android:maxLines="2"-->
+    <!--        android:padding="3dp"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:textSize="20sp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        android:visibility="visible" />-->
+
+    <!--<ImageView-->
+    <!--    android:id="@+id/imageView"-->
+    <!--    android:layout_width="wrap_content"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:layout_alignParentStart="true"-->
+    <!--    android:layout_alignParentTop="true"-->
+    <!--    android:layout_marginStart="200dp"-->
+    <!--    android:layout_marginTop="50dp"-->
+    <!--    app:srcCompat="@drawable/baseline_currency_rupee_24" />-->
+
+    <!--</RelativeLayout>-->
+

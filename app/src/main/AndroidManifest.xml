@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/icon1"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SSV"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".bill_folder"
+            android:exported="false" />
+        <activity
+            android:name=".on_click_btn_bill_list"
+            android:exported="false" />
+        <activity
+            android:name=".modify_payment"
+            android:label="Modify Here"
+            android:theme="@style/AlertTheme" />
+        <activity
+            android:name=".add_payment"
+            android:label="Add Here"
+            android:theme="@style/AlertTheme" />
+        <activity
+            android:name=".on_click_btn_payment_list"
+            android:exported="false" />
+        <activity
+            android:name=".make_bill"
+            android:exported="false" />
+        <activity
+            android:name=".modify_vehicle"
+            android:label="Modify Here"
+            android:theme="@style/AlertTheme" />
+        <activity
+            android:name=".add_vehicle"
+            android:label="Add Here"
+            android:theme="@style/AlertTheme" />
+        <activity
+            android:name=".on_click_btn_vehicle_list"
+            android:exported="false" />
+        <activity
+            android:name=".modify_stock"
+            android:label="Modify Here"
+            android:theme="@style/AlertTheme" />
+        <activity
+            android:name=".add_stock"
+            android:label="Add Here"
+            android:theme="@style/AlertTheme" />
+        <activity
+            android:name=".on_click_btn_stock_list"
+            android:exported="false" />
+        <activity
+            android:name=".modify_site"
+            android:label="Modify Here"
+            android:theme="@style/AlertTheme" />
+        <activity
+            android:name=".add_site"
+            android:label="Add Here"
+            android:theme="@style/AlertTheme" />
+        <activity
+            android:name=".on_click_btn_site_list"
+            android:exported="false" />
+        <activity
+            android:name=".on_click_btn_vendor_list"
+            android:exported="false" />
+        <activity
+            android:name=".modify_activity"
+            android:label="Modify Here"
+            android:theme="@style/AlertTheme" />
+        <activity
+            android:name=".add_activity"
+            android:label="Add Here"
+            android:theme="@style/AlertTheme" />
+        <activity
+            android:name=".on_click_btn_customer_list"
+            android:exported="false" />
+        <activity
+            android:name=".ListView_ImageBtn_AddOrder"
+            android:label="Select Here"
+            android:theme="@style/AlertTheme" />
+        <activity
+            android:name=".modify_order"
+            android:label="Modify Order Details"
+            android:theme="@style/AlertTheme" />
+        <activity
+            android:name=".on_click_btn_order_list"
+            android:exported="false" />
+        <activity
+            android:name=".add_order"
+            android:label="Enter Order Details"
+            android:theme="@style/AlertTheme" />
+        <activity
+            android:name=".PdfViewActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".First_Activity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.SSV.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.dcode.mylorry.file_provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

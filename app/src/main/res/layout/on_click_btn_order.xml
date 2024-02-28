@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="7dp"
+        android:padding="3dp"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:visibility="visible" />
+    <ImageView
+        android:id="@+id/imageViewDate"
+        android:layout_width="25dp"
+        android:layout_height="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/date_payment_icon_foreground" />
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:maxLength="10"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        app:srcCompat="@drawable/person_24_white" />
+    <TextView
+        android:id="@+id/customer"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+    <ImageView
+        android:id="@+id/imageViewProduct"
+        android:layout_width="25dp"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginBottom="43dp"
+        app:srcCompat="@drawable/baseline_local_grocery_store_24" />
+    <TextView
+        android:id="@+id/product"
+        android:layout_width="195dp"
+        android:layout_height="28dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="2dp"
+        android:layout_height="2dp"
+        android:layout_below="@id/date"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="128dp"
+        android:layout_toEndOf="@id/id"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:padding="3dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/unit"
+        android:layout_width="2dp"
+        android:layout_height="2dp"
+        android:layout_below="@id/date"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="9dp"
+        android:layout_toEndOf="@id/id"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:padding="3dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginBottom="73dp"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="75dp"
+        app:srcCompat="@drawable/baseline_arrow_forward_24" />
+    <TextView
+        android:id="@+id/site"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginBottom="73dp"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageViewAmount"
+        android:layout_width="25dp"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/baseline_currency_rupee_24" />
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:maxLength="10"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="38dp"
+        android:text="@string/FROM"
+        android:textColor="@color/colorPrimary"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="38dp"
+        android:text="@string/TO"
+        android:textColor="@color/colorPrimary"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/amount_mode"
+        android:layout_width="2dp"
+        android:layout_height="2dp"
+        android:layout_below="@id/date"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="2dp"
+        android:layout_toEndOf="@id/id"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:padding="3dp"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="25dp"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/car_green_foreground" />
+    <TextView
+        android:id="@+id/vehicle_no"
+        android:layout_width="155dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginBottom="3dp"
+        android:textColor="@color/black"
+        android:maxLength="10"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <CheckBox
+        android:id="@+id/order_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="323dp"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/order_edit"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        app:srcCompat="@mipmap/edit_image" />
+
+</RelativeLayout>
+    <!--    app:srcCompat="@drawable/edit_pen_white_bg_foreground" />-->
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="150dp"-->
+<!--    android:orientation="vertical">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/id"-->
+<!--        android:layout_width="30dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="5dp"-->
+<!--        android:layout_marginTop="7dp"-->
+<!--        android:padding="3dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="17sp"-->
+<!--        android:visibility="visible" />-->
+<!--    <ImageView-->
+<!--        android:id="@+id/imageViewDate"-->
+<!--        android:layout_width="25dp"-->
+<!--        android:layout_height="22dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="42dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        app:srcCompat="@drawable/calender_order_white_foreground" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/date"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="25dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginStart="70dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:maxLength="10"-->
+<!--        android:textSize="17sp"-->
+<!--        android:textStyle="bold" />-->
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView4"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="22dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="162dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginBottom="5dp"-->
+<!--        app:srcCompat="@drawable/person_24_white" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/customer"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="25dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="190dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="17sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:visibility="visible" />-->
+<!--    <ImageView-->
+<!--        android:id="@+id/imageViewProduct"-->
+<!--        android:layout_width="25dp"-->
+<!--        android:layout_height="22dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="42dp"-->
+<!--        android:layout_marginBottom="43dp"-->
+<!--        app:srcCompat="@drawable/trolly_order_white_foreground" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/product"-->
+<!--        android:layout_width="195dp"-->
+<!--        android:layout_height="28dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="70dp"-->
+<!--        android:layout_marginBottom="40dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:visibility="visible" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/quantity"-->
+<!--        android:layout_width="2dp"-->
+<!--        android:layout_height="2dp"-->
+<!--        android:layout_below="@id/date"-->
+<!--        android:layout_marginStart="1dp"-->
+<!--        android:layout_marginTop="3dp"-->
+<!--        android:layout_marginEnd="128dp"-->
+<!--        android:layout_toEndOf="@id/id"-->
+<!--        android:ellipsize="end"-->
+<!--        android:maxLines="2"-->
+<!--        android:padding="3dp"-->
+<!--        android:textSize="17sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:visibility="visible" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/unit"-->
+<!--        android:layout_width="2dp"-->
+<!--        android:layout_height="2dp"-->
+<!--        android:layout_below="@id/date"-->
+<!--        android:layout_marginStart="1dp"-->
+<!--        android:layout_marginTop="9dp"-->
+<!--        android:layout_toEndOf="@id/id"-->
+<!--        android:ellipsize="end"-->
+<!--        android:maxLines="2"-->
+<!--        android:padding="3dp"-->
+<!--        android:textSize="17sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:visibility="visible" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/from"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="42dp"-->
+<!--        android:layout_marginBottom="73dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="22sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:visibility="visible" />-->
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="22dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="150dp"-->
+<!--        android:layout_marginBottom="75dp"-->
+<!--        app:srcCompat="@drawable/baseline_arrow_forward_24" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/site"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="180dp"-->
+<!--        android:layout_marginBottom="73dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="22sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:visibility="visible" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageViewAmount"-->
+<!--        android:layout_width="25dp"-->
+<!--        android:layout_height="22dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginEnd="170dp"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        app:srcCompat="@drawable/rupee_order_white_foreground" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/amount"-->
+<!--        android:layout_width="110dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="60dp"-->
+<!--        android:layout_marginBottom="5dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:maxLength="7"-->
+<!--        android:visibility="visible" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="40dp"-->
+<!--        android:layout_height="15dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="43dp"-->
+<!--        android:layout_marginTop="38dp"-->
+<!--        android:text="@string/FROM"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="10sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:visibility="visible" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="40dp"-->
+<!--        android:layout_height="15dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="180dp"-->
+<!--        android:layout_marginTop="38dp"-->
+<!--        android:text="@string/TO"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="10sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:visibility="visible" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/amount_mode"-->
+<!--        android:layout_width="2dp"-->
+<!--        android:layout_height="2dp"-->
+<!--        android:layout_below="@id/date"-->
+<!--        android:layout_marginStart="1dp"-->
+<!--        android:layout_marginTop="7dp"-->
+<!--        android:layout_marginEnd="4dp"-->
+<!--        android:layout_marginBottom="2dp"-->
+<!--        android:layout_toEndOf="@id/id"-->
+<!--        android:ellipsize="end"-->
+<!--        android:maxLines="1"-->
+<!--        android:padding="3dp"-->
+<!--        android:textSize="10sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:visibility="visible" />-->
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView5"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="22dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="42dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        app:srcCompat="@drawable/car_24_white" />-->
+<!--    <TextView-->
+<!--        android:id="@+id/vehicle_no"-->
+<!--        android:layout_width="155dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="70dp"-->
+<!--        android:layout_marginBottom="3dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:visibility="visible" />-->
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/order_checkBox"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginEnd="10dp"-->
+<!--        android:layout_marginBottom="323dp"-->
+<!--        android:visibility="invisible" />-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/order_edit"-->
+<!--        android:layout_width="47dp"-->
+<!--        android:layout_height="47dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:layout_marginEnd="10dp"-->
+<!--        android:background="@color/white"-->
+<!--        app:srcCompat="@mipmap/edit_image_foreground" />-->
+
+<!--</RelativeLayout>-->
+<!--&lt;!&ndash;    app:srcCompat="@drawable/edit_pen_white_bg_foreground" />&ndash;&gt;-->
+
+
+

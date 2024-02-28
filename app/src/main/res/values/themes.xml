@@ -1,0 +1,50 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--    <style name="Theme.SSV" parent="Theme.MaterialComponents.Light.NoActionBar">-->
+    <style name="Theme.SSV" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/purple_500</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="AlertTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/purple_500</item>
+    </style>
+
+<!--    <style name="AppTransparent">-->
+<!--        <item name="android:windowIsTranslucent">true</item>-->
+<!--        <item name="android:windowBackground">@android:color/transparent</item>-->
+<!--        <item name="android:windowContentOverlay">@null</item>-->
+<!--        <item name="android:windowNoTitle">false</item>-->
+<!--        <item name="android:windowIsFloating">true</item>-->
+<!--        <item name="android:backgroundDimEnabled">false</item>-->
+<!--    </style>-->
+
+<!--    <style name="Theme.AppCompat.Translucent" parent="Theme.AppCompat.NoActionBar">-->
+<!--        <item name="android:background">#33000000-->
+<!--        </item> &lt;!&ndash; Or any transparency or color you need &ndash;&gt;-->
+<!--        <item name="android:windowNoTitle">true</item>-->
+<!--        <item name="android:windowBackground">@android:color/transparent</item>-->
+<!--        <item name="android:colorBackgroundCacheHint">@null</item>-->
+<!--        <item name="android:windowIsTranslucent">true</item>-->
+<!--        <item name="android:windowAnimationStyle">@android:style/Animation</item>-->
+<!--    </style>-->
+
+    <style name="Theme.SSV.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.SSV.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.SSV.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyDatePickerDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/purple_500</item>
+    </style>
+
+
+</resources>

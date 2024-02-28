@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ListView
+        android:id="@+id/list_view_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:dividerHeight="1dp"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/empty_order"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom">
+
+        <RelativeLayout
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="98dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/green_box" />
+        <RelativeLayout
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/red_box" />
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="12dp"
+            android:textSize="17sp"
+            android:text="Cash"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="272dp"
+            android:layout_marginTop="12dp"
+            android:textSize="17sp"
+            android:text="Credit"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/down_add_order"
+            android:layout_width="370dp"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/curved_purple_button"
+            android:text="@string/add"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</FrameLayout>

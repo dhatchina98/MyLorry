@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/cancel_menu"
+        android:icon="@drawable/menu_cross_foreground"
+        android:title="cancel"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/select_all_menu"
+        android:title="select_All"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/delete_menu"
+        android:icon="@drawable/menu_delete_foreground"
+        android:title="@string/Delete"
+        app:showAsAction="always" />
+</menu>

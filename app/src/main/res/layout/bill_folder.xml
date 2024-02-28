@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    tools:context=".bill_folder">
+
+    <ImageView
+        android:id="@+id/bill_imageView"
+        android:layout_width="70dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:id="@+id/file_name"
+        android:layout_width="285dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="12dp"
+        android:maxLines="1"
+        android:padding="3dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/From"
+        android:layout_width="49dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="43dp"
+        android:maxLines="1"
+        android:padding="3dp"
+        android:text="@string/bill_from"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bill_from_date"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="43dp"
+        android:maxLines="1"
+        android:padding="3dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/to"
+        android:layout_width="49dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="63dp"
+        android:maxLines="1"
+        android:padding="3dp"
+        android:text="@string/bill_to"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bill_to_date"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="63dp"
+        android:maxLines="1"
+        android:padding="3dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="262dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/curved_white_button"
+        android:drawableStart="@drawable/view_foreground"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:text="@string/bill_view"
+        android:textAllCaps="false"
+        android:textColor="@color/purple_700" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="323dp"
+        android:layout_marginTop="12dp"
+        android:visibility="invisible" />
+
+</RelativeLayout>
+
+    <!--    app:srcCompat="@mipmap/bill"-->

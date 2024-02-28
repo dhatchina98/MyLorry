@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/vehicle_imageView"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="9dp"
+        app:srcCompat="@mipmap/site_list_view_foreground" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="70dp"
+        android:padding="3dp"
+        android:text="id:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/site_id"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="70dp"
+        android:padding="3dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+    <TextView
+        android:id="@+id/site_name"
+        android:layout_width="228dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="30dp"
+        android:maxLines="1"
+        android:padding="3dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/site_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="323dp"
+        android:layout_marginTop="12dp"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/site_edit"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="53dp"
+        android:background="@color/white"
+        app:srcCompat="@mipmap/edit_image" />
+</RelativeLayout>
+
+    <!--    <?xml version="1.0" encoding="utf-8"?>-->
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:background="@drawable/site_box"-->
+    <!--android:orientation="vertical" >-->
+
+    <!--<TextView-->
+    <!--    android:id="@+id/site_id"-->
+    <!--    android:layout_width="47dp"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    android:layout_marginEnd="6dp"-->
+    <!--    android:layout_marginStart="5dp"-->
+    <!--    android:layout_marginTop="3dp"-->
+    <!--    android:textSize="20sp"-->
+    <!--    android:textColor="@color/white"-->
+    <!--    android:padding="3dp"-->
+    <!--    android:visibility="visible" />-->
+
+    <!--<TextView-->
+    <!--    android:id="@+id/site_name"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="50dp"-->
+    <!--    android:layout_marginStart="10dp"-->
+    <!--    android:layout_marginTop="3dp"-->
+    <!--    android:layout_toEndOf="@id/site_id"-->
+    <!--    android:maxLines="1"-->
+    <!--    android:padding="3dp"-->
+    <!--    android:textSize="22sp"-->
+    <!--    android:textColor="@color/white"-->
+    <!--    android:textStyle="bold" />-->
+
+    <!--</RelativeLayout>-->

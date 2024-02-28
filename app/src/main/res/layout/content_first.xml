@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background_foreground"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="370dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="75dp"
+        android:layout_weight="1"
+        android:background="@mipmap/portfolio"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="30dp"
+                android:layout_height="20dp"/>
+            <LinearLayout
+                android:layout_width="190dp"
+                android:layout_height="70dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="20dp"
+                    android:layout_height="10dp"/>
+                <TextView
+                    android:layout_width="190dp"
+                    android:layout_height="35dp"
+                    android:text="My Portfolio"
+                    android:textStyle="bold|italic"
+                    android:textSize="25sp"
+                    android:textColor="@color/white" />
+                <TextView
+                    android:layout_width="190dp"
+                    android:layout_height="20dp"
+                    android:text="summary of your account"
+                    android:textStyle="italic"
+                    android:textSize="12sp"
+                    android:textColor="@color/light_gray" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"/>
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="20dp"
+                android:text="➤  Vehicles"
+                android:textStyle="italic"
+                android:textColor="@color/light_gray" />
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="10dp"/>
+            <TextView
+                android:id="@+id/pf_vehicle"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:paddingLeft="23dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="20dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="➤  Sites"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:textColor="@color/light_gray" />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="➤  Products"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:textColor="@color/light_gray" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="63dp"
+                android:layout_height="20dp"/>
+            <TextView
+                android:id="@+id/pf_sites"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:textSize="15sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/pf_product"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:textSize="15sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="20dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="➤  Orders"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:textColor="@color/light_gray" />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="➤  Customers"
+                android:textStyle="italic"
+                android:textSize="15sp"
+                android:textColor="@color/light_gray" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="63dp"
+                android:layout_height="20dp"/>
+            <TextView
+                android:id="@+id/pf_order"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:textSize="15sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/pf_customer"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:textSize="15sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="20dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:text="➤  Earned"
+                android:textStyle="italic"
+                android:textSize="15sp"
+                android:textColor="@color/light_gray" />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="➤  Balance"
+                android:textStyle="italic"
+                android:textSize="15sp"
+                android:textColor="@color/light_gray" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="20dp"/>
+            <TextView
+                android:id="@+id/pf_earned"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/Green" />
+            <TextView
+                android:id="@+id/pf_balance"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/Red" />
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <!-- First Horizontal Linear Layout -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:background="@mipmap/portfolio"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="OnClickOfVehicleButton"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/vehicle_icon_foreground" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="Vehicle"
+                android:textStyle="italic"
+                android:textColor="@color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:background="@mipmap/portfolio"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="OnClickOfStockButton"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/product_icon_foreground" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="Product"
+                android:textStyle="italic"
+                android:textColor="@color/white" />
+        </LinearLayout>
+        <!-- Second Horizontal Linear Layout -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="25dp"
+            android:layout_weight="1"
+            android:background="@mipmap/portfolio"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="OnClickOfSiteButton"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/site_icon_foreground" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="Site"
+                android:textStyle="italic"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- Second Vertical Linear Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <!-- First Horizontal Linear Layout -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:background="@mipmap/portfolio"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="OnClickOfVendorsButton"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/vendor_icon_foreground" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="Vendor"
+                android:textStyle="italic"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+
+        <!-- Second Horizontal Linear Layout -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:background="@mipmap/portfolio"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="OnClickOfCustomerButton"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/customer_icon_foreground" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="Customer"
+                android:textStyle="italic"
+                android:textColor="@color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="25dp"
+            android:layout_weight="1"
+            android:background="@mipmap/portfolio"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="OnClickOfPaymentsButton"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/payment_icon_foreground" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="Payment"
+                android:textStyle="italic"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+    <!-- Third Vertical Linear Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <!-- First Horizontal Linear Layout -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:background="@mipmap/portfolio"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="OnClickOfOrderButton"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/order_icon_foreground" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="Order"
+                android:textStyle="italic"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+
+        <!-- Second Horizontal Linear Layout -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="25dp"
+            android:layout_weight="1"
+            android:background="@mipmap/portfolio"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="OnClickOfBillsButton"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/bill_icon_foreground" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="Bill"
+                android:textStyle="italic"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical">-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="100dp" />-->
+
+<!--    &lt;!&ndash; First Vertical Linear Layout &ndash;&gt;-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        &lt;!&ndash; First Horizontal Linear Layout &ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@drawable/black_outline_box"-->
+<!--            android:clickable="true"-->
+<!--            android:focusable="true"-->
+<!--            android:onClick="OnClickOfVehicleButton"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="110dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@mipmap/vehicle_foreground" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Vehicle"-->
+<!--                android:textColor="@color/black" />-->
+<!--        </LinearLayout>-->
+<!--        &lt;!&ndash; Second Horizontal Linear Layout &ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_marginEnd="20dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@drawable/black_outline_box"-->
+<!--            android:clickable="true"-->
+<!--            android:focusable="true"-->
+<!--            android:onClick="OnClickOfOrderButton"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="110dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@mipmap/vehicle_foreground" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Order"-->
+<!--                android:textColor="@color/black" />-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        &lt;!&ndash; First Horizontal Linear Layout &ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@drawable/black_outline_box"-->
+<!--            android:clickable="true"-->
+<!--            android:focusable="true"-->
+<!--            android:onClick="OnClickOfStockButton"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="110dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@mipmap/vehicle_foreground" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Product"-->
+<!--                android:textColor="@color/black" />-->
+<!--        </LinearLayout>-->
+<!--        &lt;!&ndash; Second Horizontal Linear Layout &ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_marginEnd="20dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@drawable/black_outline_box"-->
+<!--            android:clickable="true"-->
+<!--            android:focusable="true"-->
+<!--            android:onClick="OnClickOfSiteButton"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="110dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@mipmap/vehicle_foreground" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Site"-->
+<!--                android:textColor="@color/black" />-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+<!--    &lt;!&ndash; Second Vertical Linear Layout &ndash;&gt;-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        &lt;!&ndash; First Horizontal Linear Layout &ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@drawable/black_outline_box"-->
+<!--            android:clickable="true"-->
+<!--            android:focusable="true"-->
+<!--            android:onClick="OnClickOfVendorsButton"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="110dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@mipmap/vehicle_foreground" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Vendor"-->
+<!--                android:textColor="@color/black" />-->
+<!--        </LinearLayout>-->
+
+
+<!--        &lt;!&ndash; Second Horizontal Linear Layout &ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_marginEnd="20dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@drawable/black_outline_box"-->
+<!--            android:clickable="true"-->
+<!--            android:focusable="true"-->
+<!--            android:onClick="OnClickOfCustomerButton"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="110dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@mipmap/vehicle_foreground" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Customer"-->
+<!--                android:textColor="@color/black" />-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+<!--    &lt;!&ndash; Third Vertical Linear Layout &ndash;&gt;-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        &lt;!&ndash; First Horizontal Linear Layout &ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginEnd="10dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@drawable/black_outline_box"-->
+<!--            android:clickable="true"-->
+<!--            android:focusable="true"-->
+<!--            android:onClick="OnClickOfPaymentsButton"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="110dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@mipmap/vehicle_foreground" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Payment"-->
+<!--                android:textColor="@color/black" />-->
+<!--        </LinearLayout>-->
+
+<!--        &lt;!&ndash; Second Horizontal Linear Layout &ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_marginEnd="20dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@drawable/black_outline_box"-->
+<!--            android:clickable="true"-->
+<!--            android:focusable="true"-->
+<!--            android:onClick="OnClickOfBillsButton"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="110dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@mipmap/vehicle_foreground" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Bill"-->
+<!--                android:textColor="@color/black" />-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+<!--</LinearLayout>-->
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+    <!--    tools:showIn="@layout/app_bar_first">-->
+
+    <!--    <fragment-->
+    <!--        android:id="@+id/nav_host_fragment_content_first"-->
+    <!--        android:name="androidx.navigation.fragment.NavHostFragment"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        app:defaultNavHost="true"-->
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--        app:layout_constraintRight_toRightOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:navGraph="@navigation/mobile_navigation"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button1"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:onClick="OnClickOfStockButton"-->
+    <!--        android:text="@string/button_1"-->
+    <!--        android:textSize="15sp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@id/guideline12"-->
+    <!--        app:layout_constraintDimensionRatio="1:0.60"-->
+    <!--        app:layout_constraintStart_toStartOf="@id/guideline1"-->
+    <!--        app:layout_constraintTop_toTopOf="@id/guideline3" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button6"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:onClick="OnClickOfSiteButton"-->
+    <!--        android:text="@string/button_7"-->
+    <!--        android:textSize="15sp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@id/guideline12"-->
+    <!--        app:layout_constraintDimensionRatio="1:0.60"-->
+    <!--        app:layout_constraintEnd_toEndOf="@id/guideline2"-->
+    <!--        app:layout_constraintStart_toStartOf="@id/guideline2.5"-->
+    <!--        app:layout_constraintTop_toTopOf="@id/guideline3" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button2"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:onClick="OnClickOfCustomerButton"-->
+    <!--        android:text="@string/button_2"-->
+    <!--        android:textSize="15sp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@id/guideline11"-->
+    <!--        app:layout_constraintDimensionRatio="1:0.60"-->
+    <!--        app:layout_constraintEnd_toEndOf="@id/guideline1.5"-->
+    <!--        app:layout_constraintStart_toStartOf="@id/guideline1"-->
+    <!--        app:layout_constraintTop_toTopOf="@id/guideline3.5" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button7"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:onClick="OnClickOfVendorsButton"-->
+    <!--        android:text="@string/button_6"-->
+    <!--        android:textSize="15sp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@id/guideline11"-->
+    <!--        app:layout_constraintDimensionRatio="1:0.60"-->
+    <!--        app:layout_constraintEnd_toEndOf="@id/guideline2"-->
+    <!--        app:layout_constraintStart_toStartOf="@id/guideline2.5"-->
+    <!--        app:layout_constraintTop_toTopOf="@id/guideline3.5" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button3"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:onClick="OnClickOfOrderButton"-->
+    <!--        android:text="@string/button_3"-->
+    <!--        android:textSize="25sp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@id/guideline10"-->
+    <!--        app:layout_constraintDimensionRatio="1:0.25"-->
+    <!--        app:layout_constraintEnd_toEndOf="@id/guideline2"-->
+    <!--        app:layout_constraintStart_toStartOf="@id/guideline1"-->
+    <!--        app:layout_constraintTop_toTopOf="@id/guideline5" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button4"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:onClick="OnClickOfPaymentsButton"-->
+    <!--        android:text="@string/button_4"-->
+    <!--        android:textSize="15sp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@id/guideline7"-->
+    <!--        app:layout_constraintDimensionRatio="1:0.60"-->
+    <!--        app:layout_constraintEnd_toEndOf="@id/guideline1.5"-->
+    <!--        app:layout_constraintStart_toStartOf="@id/guideline1"-->
+    <!--        app:layout_constraintTop_toTopOf="@id/guideline6" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button5"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:onClick="OnClickOfBillsButton"-->
+    <!--        android:text="@string/button_5"-->
+    <!--        android:textSize="15sp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@id/guideline7"-->
+    <!--        app:layout_constraintDimensionRatio="1:0.60"-->
+    <!--        app:layout_constraintEnd_toEndOf="@id/guideline2"-->
+    <!--        app:layout_constraintStart_toStartOf="@id/guideline2.5"-->
+    <!--        app:layout_constraintTop_toTopOf="@id/guideline6" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button"-->
+    <!--        android:layout_width="355dp"-->
+    <!--        android:layout_height="60dp"-->
+    <!--        android:onClick="OnClickOfVehicleButton"-->
+    <!--        android:text="Vehicle"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@id/guideline18"-->
+    <!--        app:layout_constraintEnd_toEndOf="@id/guideline2"-->
+    <!--        app:layout_constraintStart_toStartOf="@id/guideline1"-->
+    <!--        app:layout_constraintTop_toTopOf="@id/guideline17" />-->
+
+    <!--    <androidx.constraintlayout.widget.Guideline-->
+    <!--        android:id="@+id/guideline1"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="vertical"-->
+    <!--        app:layout_constraintGuide_percent="0.05" />-->
+
+    <!--    <androidx.constraintlayout.widget.Guideline-->
+    <!--        android:id="@+id/guideline1.5"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="vertical"-->
+    <!--        app:layout_constraintGuide_percent="0.48" />-->
+
+    <!--    <androidx.constraintlayout.widget.Guideline-->
+    <!--        android:id="@+id/guideline2.5"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="vertical"-->
+    <!--        app:layout_constraintGuide_percent="0.52" />-->
+
+    <!--    <androidx.constraintlayout.widget.Guideline-->
+    <!--        android:id="@+id/guideline2"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="vertical"-->
+    <!--        app:layout_constraintGuide_percent="0.95" />-->
+
+    <!--    <androidx.constraintlayout.widget.Guideline-->
+    <!--        android:id="@+id/guideline17"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:layout_constraintGuide_begin="273dp" />-->
+
+    <!--    <androidx.constraintlayout.widget.Guideline-->
+    <!--        android:id="@+id/guideline18"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:layout_constraintGuide_begin="346dp" />-->
+
+    <!--    <androidx.constraintlayout.widget.Guideline-->
+    <!--        android:id="@+id/guideline3"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:layout_constraintGuide_begin="287dp" />-->
+
+    <!--    <androidx.constraintlayout.widget.Guideline-->
+    <!--        android:id="@+id/guideline3.5"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:layout_constraintGuide_percent="0.5" />-->
+
+    <!--    <androidx.constraintlayout.widget.Guideline-->
+    <!--        android:id="@+id/guideline12"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:layout_constraintGuide_percent="0.63" />-->
+
+    <!--    <androidx.constraintlayout.widget.Guideline-->
+    <!--        android:id="@+id/guideline4"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:layout_constraintGuide_percent="0.64" />-->
+
+    <!--    <androidx.constraintlayout.widget.Guideline-->
+    <!--        android:id="@+id/guideline11"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:layout_constraintGuide_percent="0.76" />-->
+
+    <!--    <androidx.constraintlayout.widget.Guideline-->
+    <!--        android:id="@+id/guideline5"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:layout_constraintGuide_percent="0.65" />-->
+
+    <!--    <androidx.constraintlayout.widget.Guideline-->
+    <!--        android:id="@+id/guideline6"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:layout_constraintGuide_percent="0.8" />-->
+
+    <!--    <androidx.constraintlayout.widget.Guideline-->
+    <!--        android:id="@+id/guideline10"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:layout_constraintGuide_percent="0.87" />-->
+
+    <!--    <androidx.constraintlayout.widget.Guideline-->
+    <!--        android:id="@+id/guideline7"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:layout_constraintGuide_end="16dp" />-->
+
+    <!--    <androidx.constraintlayout.widget.Guideline-->
+    <!--        android:id="@+id/guideline15"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:layout_constraintGuide_percent="0.96" />-->
+
+    <!--    <androidx.constraintlayout.widget.Guideline-->
+    <!--        android:id="@+id/guideline16"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:layout_constraintGuide_percent="0.99" />-->
+
+    <!--</androidx.constraintlayout.widget.ConstraintLayout>-->

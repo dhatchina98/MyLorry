@@ -1,0 +1,10 @@
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+        <external-files-path name="customer_bills" path="Customer_Bills/" />
+        <external-files-path name="vendor_bills" path="Vendor_Bills/" />
+        <external-files-path name="order_bills" path="Order_Bills/" />
+        <external-files-path name="database_backup" path="Database_Backup/" />
+<!--    <external-files-path name="customer_bills" path="Documents/MyLorryStorage/Customer_Bills/" />-->
+<!--    <external-files-path name="vendor_bills" path="Documents/MyLorryStorage/Vendor_Bills/" />-->
+<!--    <external-files-path name="order_bills" path="Documents/MyLorryStorage/Order_Bills/" />-->
+<!--    <external-files-path name="database_backup" path="Documents/MyLorryStorage/Database_Backup/" />-->
+</paths>
